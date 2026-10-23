@@ -22,6 +22,7 @@ public sealed class TwilioDeactivationsUtilTests : HostedUnitTest
 
     [Test]
     [Category("Integration")]
+    [Explicit]
     public async ValueTask GetPhoneNumbers_downloads_real_report()
     {
         var config = Resolve<IConfiguration>();
