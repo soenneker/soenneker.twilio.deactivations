@@ -71,6 +71,7 @@ public sealed class TwilioDeactivationsUtil : ITwilioDeactivationsUtil
 
         return url;
     }
+
     public async IAsyncEnumerable<string> GetPhoneNumbers(DateOnly date,
         [EnumeratorCancellation] CancellationToken cancellationToken = default)
     {
@@ -91,4 +92,3 @@ public sealed class TwilioDeactivationsUtil : ITwilioDeactivationsUtil
         }
     }
 }
-
