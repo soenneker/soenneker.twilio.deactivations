@@ -3,6 +3,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <TargetFramework>net11.0</TargetFramework>
+        <Features Condition="'$(TargetFramework)' == 'net11.0'">$(Features);runtime-async=on</Features>
         <IsAotCompatible>true</IsAotCompatible>
         <Nullable>enable</Nullable>
         <Platforms>AnyCPU</Platforms>
@@ -48,7 +49,7 @@
         <PackageReference Include="Soenneker.Extensions.String" Version="4.0.800" />
         <PackageReference Include="Soenneker.Extensions.Task" Version="11.0.141" />
         <PackageReference Include="Soenneker.Extensions.ValueTask" Version="4.0.133" />
-        <PackageReference Include="Soenneker.Utils.HttpClientCache" Version="11.0.2134" />
+        <PackageReference Include="Soenneker.Utils.HttpClientCache" Version="11.0.2135" />
         <PackageReference Include="Soenneker.Twilio.OpenApiClientUtil" Version="11.0.206" />
     </ItemGroup>
 </Project>
