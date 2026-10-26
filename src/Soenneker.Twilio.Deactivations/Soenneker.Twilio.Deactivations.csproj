@@ -46,10 +46,10 @@
 
     <ItemGroup>
         <PackageReference Include="Soenneker.Extensions.String" Version="4.0.800" />
-        <PackageReference Include="Soenneker.Extensions.Task" Version="4.0.140" />
+        <PackageReference Include="Soenneker.Extensions.Task" Version="11.0.141" />
         <PackageReference Include="Soenneker.Extensions.ValueTask" Version="4.0.133" />
-        <PackageReference Include="Soenneker.Utils.HttpClientCache" Version="4.0.2128" />
-        <PackageReference Include="Soenneker.Twilio.OpenApiClientUtil" Version="4.0.203" />
+        <PackageReference Include="Soenneker.Utils.HttpClientCache" Version="11.0.2134" />
+        <PackageReference Include="Soenneker.Twilio.OpenApiClientUtil" Version="11.0.206" />
     </ItemGroup>
 </Project>
 
