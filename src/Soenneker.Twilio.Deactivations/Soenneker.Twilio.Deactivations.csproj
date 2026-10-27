@@ -50,7 +50,7 @@
         <PackageReference Include="Soenneker.Extensions.Task" Version="11.0.141" />
         <PackageReference Include="Soenneker.Extensions.ValueTask" Version="4.0.133" />
         <PackageReference Include="Soenneker.Utils.HttpClientCache" Version="11.0.2139" />
-        <PackageReference Include="Soenneker.Twilio.OpenApiClientUtil" Version="11.0.209" />
+        <PackageReference Include="Soenneker.Twilio.OpenApiClientUtil" Version="11.0.210" />
     </ItemGroup>
 </Project>
 
