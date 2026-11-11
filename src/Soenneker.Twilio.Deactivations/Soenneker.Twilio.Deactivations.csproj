@@ -46,7 +46,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Soenneker.Twilio.OpenApiClientUtil" Version="11.0.232" />
+        <PackageReference Include="Soenneker.Twilio.OpenApiClientUtil" Version="11.0.233" />
     </ItemGroup>
 </Project>
 
